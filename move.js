@@ -49,9 +49,9 @@ function moveWithArrowKeys(left, bottom) {
     }
   });
 
-  document.addEventListener("keyup", function (e) {
-    direction = null;
-  });
+  // document.addEventListener("keyup", function (e) {
+  //   direction = null;
+  // });
 
   return {
     to: moveToCoordinates,
